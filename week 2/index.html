@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My World</title>
+    <script>
+      // intro
+      console.log("Yellow World");
+      let width, length, area;
+      width = 10;
+      length = 5;
+      area = width * length;
+      console.log(width);
+      console.log(length);
+      console.log(area);
+
+      //   data types
+      let myNum = 10;
+      let myString = "Hello World";
+      let flag = true;
+      console.log(typeof myNum);
+      console.log(typeof myString);
+      console.log(typeof flag);
+
+      // math
+      const PI = 3.141592653589793;
+      let radius = 10;
+      let areaofCircle = PI * radius ** 2;
+      console.log(areaofCircle);
+      const person = {
+        name: "Ash",
+        age: 20,
+      };
+
+      //   adding new properties to the object
+      person.age = 20;
+      person.city = "Sandakan";
+      console.log(person); // {name: "Ash", age: 20, city: "Sandakan"}
+
+      let numArr = [3, 6, 7, 9, 10];
+      let fruitArr = ["apple", "banana", "orange"];
+      console.log(numArr.length);
+      console.log(fruitArr.length);
+
+      console.log(numArr);
+      console.log(numArr[3]);
+
+      fruitArr[1] = "durian";
+      console.log(fruitArr[1]); // "durian"
+
+      // creating an object
+      let student = {
+        name: "Ash",
+        age: 20,
+        city: "Sandakan",
+      };
+
+      console.log(student.name); // "Ash"
+      console.log(student.age); // 20
+
+      student.age = 21;
+      console.log(student.city); // "Sandakan"
+
+      let number1 = 3;
+      let number2 = 3;
+      console.log(number1 === number2);
+      console.log(number1 == number2);
+
+    </script>
+  </head>
+  <body>
+    <h1>Welcome to My World</h1>
+  </body>
+</html>

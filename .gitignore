@@ -1,0 +1,17 @@
+# Persekitaran Maya
+.venv/
+venv/
+env/
+
+# Fail Sulit & Kunci API
+.env
+*.env
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Tetapan Editor & Sistem
+.vscode/
+.DS_Store
+Thumbs.db

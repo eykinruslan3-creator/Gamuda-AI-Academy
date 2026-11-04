@@ -6,7 +6,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 load_dotenv()
 
-GEMINI_API_KEY = os.getenv(" AQ.Ab8RN6Jzg1-yfAJCZfyAxS92Ft7iFjcAI6KkeN1fEPjlBoZ3tA")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-3.8-flash",
